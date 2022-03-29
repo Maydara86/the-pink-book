@@ -1,18 +1,31 @@
+import Link from 'next/link'
 import { CCLogo, TwitterLogo, RedditLogo, RssLogo } from './LogosSVG'
 
 export default function Footer() {
   return (
-    <footer className="flex justify-between p-9 text-sm text-primary font-semibold">
-      <div className="flex place-items-center gap-1">
+    <footer className="flex justify-between p-9 text-sm text-primary">
+      <div className="flex place-items-center gap-1 font-semibold">
         <CCLogo />
-        2022 - Present Some Rights Reserved
+        2022 - Present, Some Rights Reserved
+      </div>
+      <div className="flex gap-4 font-bold">
+        <Link href="/about">
+          <a>
+            <span>ABOUT</span>
+          </a>
+        </Link>
+        <Link href="/contact">
+          <a>
+            <span>CONTACT</span>
+          </a>
+        </Link>
+        <Link href="/privacy">
+          <a>
+            <span>PRIVACY</span>
+          </a>
+        </Link>
       </div>
       <div className="flex gap-4">
-        <span>ABOUT</span>
-        <span>CONTACT</span>
-        <span>PRIVACY</span>
-      </div>
-      <div className="flex gap-1">
         <a
           href="https://twitter.com/The_Pink_Book"
           target="_blank"

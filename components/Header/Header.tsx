@@ -27,11 +27,11 @@ export default function Header() {
       <nav className="my-auto">
         <ul className="flex font-sans text-3xl text-primary">
           <li>
-            <a href="#" className="flex">
+            <a href="#" className="flex place-items-center">
               Browse
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="my-auto ml-[5px] h-5 w-5"
+                className="ml-[5px] h-5 w-5"
                 viewBox="0 0 20 20"
                 fill="currentColor"
               >
@@ -44,11 +44,11 @@ export default function Header() {
             </a>
           </li>
           <li className="mx-10">Write</li>
-          <li className="flex">
+          <li className="flex place-items-center">
             Sign
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="my-auto ml-[5px] h-8 w-8"
+              className="ml-[5px] h-8 w-8"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"

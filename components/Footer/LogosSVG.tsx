@@ -3,8 +3,8 @@ export function CCLogo() {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlSpace="preserve"
-      width={14}
-      height={14}
+      width={20}
+      height={20}
       viewBox="0 0 46296.26 40689.13"
     >
       <defs>
@@ -30,7 +30,8 @@ export function TwitterLogo() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-5 w-5"
+      width={20}
+      height={20}
       fill="currentColor"
       viewBox="0 0 30 30"
     >
@@ -44,7 +45,8 @@ export function RedditLogo() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-5 w-5"
+      width={20}
+      height={20}
       fill="currentColor"
       viewBox="0 0 30 30"
     >
@@ -57,7 +59,8 @@ export function RssLogo() {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
-      className="h-5 w-5"
+      width={20}
+      height={20}
       viewBox="0 0 20 20"
       fill="currentColor"
     >
