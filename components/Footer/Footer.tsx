@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { CCLogo, TwitterLogo, RedditLogo, RssLogo } from './LogosSVG'
+import { CCLogo, TwitterLogo, RedditLogo, RssLogo } from './SVG'
 
 export default function Footer() {
   return (
