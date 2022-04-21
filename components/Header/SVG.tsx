@@ -3,7 +3,7 @@ import { SVGProps } from 'react'
 export const MenuIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="h-8 w-8 text-primary hover:text-secondary cursor-pointer"
+    className="h-8 w-8"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -55,7 +55,7 @@ export const AvatarIcon = (props: SVGProps<SVGSVGElement>) => (
 export const SearchIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="ml-10 h-8 w-8 hover:text-secondary cursor-pointer"
+    className="ml-10 h-8 w-8"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
