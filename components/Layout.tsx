@@ -29,7 +29,7 @@ export default function Layout({ children }: LayoutProps): JSX.Element {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <div className="bg-[#F7EEF8]">{children}</div>
+      <div className="bg-[#F7EEF8] w-full h-screen">{children}</div>
     </>
   )
 }
