@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-a:hover {
-  color: #ee17ba;
+a {
+  @apply transition duration-500;
 }
 
-a:hover #header-logo {
-  color: #6e1f46;
+a:hover {
+  @apply hover:text-secondary;
 }
