@@ -39,7 +39,7 @@ export const CloseMenuIcon = (props: SVGProps<SVGSVGElement>) => (
 export const ChevronDown = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="ml-[5px] h-5 w-5"
+    className="h-5 w-5"
     viewBox="0 0 20 20"
     fill="currentColor"
     {...props}
@@ -55,7 +55,7 @@ export const ChevronDown = (props: SVGProps<SVGSVGElement>) => (
 export const AvatarIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="ml-[5px] h-8 w-8"
+    className="h-8 w-8"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
@@ -73,7 +73,7 @@ export const AvatarIcon = (props: SVGProps<SVGSVGElement>) => (
 export const SearchIcon = (props: SVGProps<SVGSVGElement>) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
-    className="ml-10 h-8 w-8"
+    className="h-8 w-8"
     fill="none"
     viewBox="0 0 24 24"
     stroke="currentColor"
