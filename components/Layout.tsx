@@ -29,7 +29,7 @@ export default function Layout({ children }: LayoutProps): JSX.Element {
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
       </Head>
-      <div className="antialiased bg-gradient-to-r from-pink-200 via-purple-300 to-pink-300 w-full h-screen">
+      <div className="overflow-x-hidden antialiased bg-gradient-to-r from-pink-200 via-purple-300 to-pink-300 w-full h-screen">
         {children}
       </div>
     </>
