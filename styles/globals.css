@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+#__next {
+  position: relative;
+  overflow: hidden;
+}
+
 a {
   @apply transition duration-500;
 }

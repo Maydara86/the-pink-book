@@ -44,7 +44,7 @@ export default function Header() {
           className="md:hidden text-primary"
           onClick={() => setMenuOpen(!menuOpen)}
         >
-          <SVG.MenuIcon />
+          {menuOpen ? <SVG.CloseMenuIcon /> : <SVG.MenuIcon />}
         </button>
       </div>
 
